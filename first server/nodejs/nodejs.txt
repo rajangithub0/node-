@@ -1,0 +1,59 @@
+introduction of NodeJS:
+which code directly see the client using the technology HTML, CSS,JAVASCRIPT is client-side scripting.
+
+node js is an open source and cross-platform JavaScript runtime environment. it is used for server and networking applications it runs JavaScript code outside  a browser.
+node js uses google java V8 engine for execution.
+node is using for backend which is called server side scripting.
+input=>process=>output
+
+
+Application of node js
+creating rest api:- A rest api is a communication channel between the frontend and backend of web application.
+
+creating real time services:- the asynchronous nature of node enables real time event-driven programming. 
+
+building microservices:- since node works on a per-package basis, it is well equipped to build smaller and faster microservices instead of bulky frameworks. 
+
+developing tools:- node can be used to create efficient tools that assist developers to get real-time feedback and analytics thus improving the overall experience of the application.
+
+npm is world largest software library
+maintained by npm  npm is the default package manager for the runtime environment node js
+open source developer use npm to share software. organinstion also use npm to manage private development.
+
+npm consists of the following
+a command line client also called npm
+an online database of public and paid for private package called the npm registry.
+ 
+
+steps to create a new node js server:-
+1. create a new folder for the project.
+2. run the npm init command.
+3. initalise the node project.
+4. create the index.js file.
+5. import the http module.
+6. create a new server.
+7. start your server and test.
+
+JSON stands for JavaScript object Notation 
+
+to transfer data between servers and browsers, the data needs to be in text format only.
+
+JSON is a text format, which can be converted to object Notation; hence it is called JavaScript object Notation.
+
+therefore,JSON is used for storing and exchanging data .it can be stored as JavaScript objects.JSON can be converted to text while being sent across the network, and they can be converted back objects when they are received.  
+
+JSON DATA TYPE
+
+Data type => Description
+
+1. Number=> The data type is used for all numeric types,be it integers or floating point number.
+
+2. String=> This data type is used for a string of unicode characters. You need to enclose the value in double-quote.
+
+3. Boolean=> This data type is used for a true false value.
+
+4. Array=> This data type is used contains an ordered list of 0 or more values. The values are wrapped in square brackets.
+
+5. Object=> This is an unordered collection of key-value pairs. You can have multiple objects   embedded in a JSON object.
+
+6. Null=> This data type is used for null values.
