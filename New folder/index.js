@@ -3,8 +3,8 @@ const http = require("http");
 const server = http.createServer((req, res) => {
   if (req.url == "/") {
     res.write("hello world");
-    res.end();
-  } else {
+    res.end("/about");
+  } else if(req.url==){
     res.write("you are not the home page.");
     res.end();
   }
