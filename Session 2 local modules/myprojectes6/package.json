@@ -1,11 +1,13 @@
 {
-  "name": "nodejs",
+  "type": "module",
+  "name": "myprojectes6",
   "version": "1.0.0",
-  "description": "this is a node js file",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "rajan",
+  "keywords": [],
+  "author": "",
   "license": "ISC"
 }
