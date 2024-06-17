@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "laptop",
+    "brand": "lenovo",
+    "price": 56845,
+    "rating": 4.7
+  },
+
+  {
+    "id": 2,
+    "name": "laptop mobile",
+    "brand": "lenovo",
+    "price": 5600,
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "apple",
+    "brand": "mac book",
+    "price": 56845,
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "i-phone",
+    "brand": "mac",
+    "price": 56845,
+    "rating": 4.7
+  }
+]
