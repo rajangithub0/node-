@@ -31,6 +31,9 @@ app.get("/news", (req, res) => {
   res.status(200).send("this is news page");
 });
 
+app.get("/info", (req, res) => {
+  res.status(200).sendFile(__dirname + "/files+info.html");
+});
 // make a particuler folder static
 
 app.use("/", express.static("website"));
