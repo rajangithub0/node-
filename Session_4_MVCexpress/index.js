@@ -32,7 +32,7 @@ app.get("/news", (req, res) => {
 });
 
 app.get("/info", (req, res) => {
-  res.status(200).sendFile(__dirname + "/files+info.html");
+  res.status(200).sendFile(__dirname + "/files/info.html");
 });
 // make a particuler folder static
 
