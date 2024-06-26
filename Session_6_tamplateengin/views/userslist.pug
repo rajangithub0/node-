@@ -1,0 +1,11 @@
+h2 users 
+table 
+    tr 
+        th id 
+        th name 
+        th email 
+    each user in users  
+        tr     
+            td #{user.id}
+            td #{user.name}
+            td #{user.email}
