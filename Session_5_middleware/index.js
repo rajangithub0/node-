@@ -6,7 +6,7 @@ const app = express();
 
 app.use(auth) //excuted before all api
 app.use(cors()); //thrid part middleware
-const users = [];
+let users = [];
 //middleware
 
 app.use(express.json()); //body parser inbulit
