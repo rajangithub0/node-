@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Search a book" id="userBook">
+    <button id="searchBook">Search</button>
+    <hr>
+    <h2>Here,s what we found</h2>
+    <ul id="bookList"></ul>
+
+    <script>
+
+        var searchBook=document.getElementById("searchBook");
+        searchBook.addEventListener("click",fetchBook)
+        function fetchBook(){
+            var userBook= document.getElementById("userBook").value;
+            var myRequest = new XMLHttpRequest();
+            myRequest.open("GET","https://www.googleapis.com/books/v1/volumes?q="+ userBook,true)
+
+
+            myRequest.onreadystatechange=()=>{
+                if(myRequest.readyState===4&&myRequest.status===200){
+                    
+                    var bookData=JSON.parse(myRequest.responseText)
+                    console.log(myRequest.responseText);
+                    
+
+                    bookData.items.forEach(element=>{
+                        var book =document.createElement("li");
+                        book.innerHTML=element.volumeInfo.title;
+                        var bookList =document.getElementById("bookList")
+                        bookList.appendChild(book)
+                    })
+                }
+                userBook.value="";   
+            }
+        }
+    </script>
+</body>
+</html>
