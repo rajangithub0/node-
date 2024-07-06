@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "wireless mouse",
+    "category": "supplier",
+    "price": 350.0,
+    "stock": 120,
+    "rating": 4.4
+  },
+  {
+    "id": 2,
+    "name": "wireless keyboard",
+    "category": "office supplier",
+    "price": 550.0,
+    "stock": 100,
+    "rating": 3.4
+  },
+  {
+    "id": 3,
+    "name": "wireless printer",
+    "category": "office supplier",
+    "price": 35000.0,
+    "stock": 50,
+    "rating": 5.5
+  },
+  {
+    "id": 4,
+    "name": "wireless scanner",
+    "category": "office supplier",
+    "price": 55000.0,
+    "stock": 10,
+    "rating": 7.0
+  },
+  {
+    "id": 5,
+    "name": "mouse",
+    "category": "office supplier",
+    "price": 300.0,
+    "stock": 140,
+    "rating": 4.4
+  },
+  {
+    "id": 6,
+    "name": "keyboard",
+    "category": "office supplier",
+    "price": 500.0,
+    "stock": 120,
+    "rating": 4.4
+  },
+  {
+    "id": 7,
+    "name": "printer",
+    "category": "office supplier",
+    "price": 35000.0,
+    "stock": 20,
+    "rating": 5.4
+  },
+  {
+    "id": 8,
+    "name": "c.p.u",
+    "category": "office supplier",
+    "price": 65000.0,
+    "stock": 10,
+    "rating": 7.0
+  },
+  {
+    "id": 9,
+    "name": "datacable",
+    "category": "office supplier",
+    "price": 300.0,
+    "stock": 200,
+    "rating": 4.4
+  },
+  {
+    "id": 10,
+    "name": "moniter",
+    "category": "office supplier",
+    "price": 3500.0,
+    "stock": 110,
+    "rating": 4.4
+  }
+]
