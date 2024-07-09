@@ -13,14 +13,14 @@ router.get('/',async(req,res)=>{
     }
 })
 //get user by id
-router.get('/:id',async(req,res)=>{
+router.get('/:id', async (req, res) => {
     try {
-        const id=req.params.id;
-        const user=await UserModel.findById(id)
-        res.status(200).send(user)
+        const id = req.params.id;
+        const user = await UserModel.findById(id);
+        res.status(200).send(user);
     } catch (error) {
         console.log(error);
-        res.status(500).send({massage:"some internal error"})
+        res.status(500).send({ message: "Some Internal error occured", error })
     }
 })
 
