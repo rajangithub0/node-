@@ -17,7 +17,7 @@ async function main() {
 }
 async function listDatabases(client) {
   dbList = await client.db().admin().listDatabases;
-  console.log("available databases "+dblist );
+  console.log("available databases ");
   dbList.databases.foreach((db) => {
     console.log(`-${db.name}`);
   });
